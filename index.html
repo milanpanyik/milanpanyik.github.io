@@ -1,9 +1,135 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>milanpanyik</h1>
-  <p>Hello There!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+
+<head>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<title>
+    Cheat Sheet
+</title>
+<header class="header">
+    <h1>Visual Rules Cheat Sheet </h1>
+</header>
+<div>
+    <table class="whtable" border="2px
+            ">
+        <thead class="thead">
+            <tr>
+                <th>Name</th>
+                <th>Description
+                </th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody class="tablebody">
+
+            <tr>
+                <td scope="row">Font Size</td>
+                <td>The font-size CSS property is used to set text sizes. Font size values can be many different units
+                    or types such as pixels.</td>
+                <td class="ex">font-size: 30px;</td>
+            </tr>
+            <tr>
+                <td scope="row">Background Color</td>
+                <td>The background-color CSS property controls the background color of elements.</td>
+                <td class="ex">background-color: blue;</td>
+            </tr>
+            <tr>
+                <td scope="row">!important Rule</td>
+                <td>The CSS !important rule is used on declarations to override any other declarations for a property
+                    and ignore selector specificity. !important rules will ensure that a specific declaration always
+                    applies to the matched elements. However, generally it is good to avoid using !important as bad
+                    practice.</td>
+                <td class="ex">.post-title {
+                    color: blue !important;
+                    }</td>
+            </tr>
+            <tr>
+                <td scope="row">Opacity</td>
+                <td>The opacity CSS property can be used to control the transparency of an element. The value of this
+                    property ranges from 0 (transparent) to 1 (opaque).</td>
+                <td class="ex">
+                    opacity: 0.5;</td>
+            </tr>
+            <tr>
+                <td scope="row">Font Weight</td>
+                <td>The font-weight CSS property can be used to set the weight (boldness) of text. The provided value
+                    can be a keyword such as bold or normal.</td>
+                <td class="ex">font-weight: bold;</td>
+            </tr>
+            <tr>
+                <td scope="row">Text Align</td>
+                <td>The text-align CSS property can be used to set the text alignment of inline contents. This property
+                    can be set to these values: left, right, or center.
+
+                </td>
+                <td class="ex">text-align: right;</td>
+            </tr>
+            <tr>
+                <td scope="row">CSS Rule Sets</td>
+                <td>A CSS rule set contains one or more selectors and one or more declarations. The selector(s), which
+                    in this example is h1, points to an HTML element. The declaration(s), which in this example are
+                    color: blue and text-align: center style the element with a property and value. The rule set is the
+                    main building block of a CSS sheet.</td>
+                <td class="ex">h1 {
+                    color: blue;
+                    text-align: center;
+                    }</td>
+            </tr>
+            <tr>
+                <td scope="row">Setting foreground text color in CSS</td>
+                <td>Using the color property, foreground text color of an element can be set in CSS. The value can be a
+                    valid color name supported in CSS like green or blue. Also, 3 digit or 6 digit color code like #22f
+                    or #2a2aff can be used to set the color.</td>
+                <td class="ex">p {
+                    color : #2a2aff ;
+                    }
+
+                    span {
+                    color : green ;
+                    }</td>
+            </tr>
+            <tr>
+                <td scope="row">Resource URLs</td>
+                <td>In CSS, the url() function is used to wrap resource URLs. These can be applied to several properties
+                    such as the background-image.</td>
+                <td class="ex">background-image: url("../resources/image.png");</td>
+            </tr>
+            <tr>
+                <td scope="row">Background Image</td>
+                <td>The background-image CSS property sets the background image of an element. An image URL should be
+                    provided in the syntax url("moon.jpg") as the value of the property.</td>
+                <td class="ex">background-image: url("nyan-cat.gif");</td>
+            </tr>
+            <tr>
+                <td scope="row">Font Family</td>
+                <td>The font-family CSS property is used to specify the typeface in a rule set. Fonts must be available
+                    to the browser to display correctly, either on the computer or linked as a web font. If a font value
+                    is not available, browsers will display their default font. When using a multi-word font name, it is
+                    best practice to wrap them in quotes.</td>
+                <td class="ex">h2 {
+                    font-family: Verdana;
+                    }
+
+                    #page-title {
+                    font-family: "Courier New";
+                    }</td>
+            </tr>
+            <tr>
+                <td scope="row">Color Name Keywords</td>
+                <td>Color name keywords can be used to set color property values for elements in CSS.</td>
+                <td class="ex">
+                    h1 {
+                    color: aqua;
+                    }
+
+                    li {
+                    color: khaki;
+                    }</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
 </html>

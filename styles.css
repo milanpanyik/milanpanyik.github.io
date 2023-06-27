@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    background-color: ligh;
+}
+
+table{
+    border: blanchedalmond;
+
+    
+}
+.ex{
+    background-color:rgb(241, 161, 161);
+    color:black;
+    font-family: monospace;
+}
+tbody{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+}
+thead{
+    background-color: lightgrey;
+}
